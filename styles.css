@@ -1,0 +1,82 @@
+
+body {
+    font-family: Garamond;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero,
+.four-panels {
+    height: 300px;
+}
+
+.hero, 
+.footer {
+    background-color: #1F2937;
+}
+
+.footer,
+.sign-up,
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    height: 450px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-section .citation {
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.sign-up {
+    height: 300px;
+}
+
+.sign-up strong {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up .blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 50%;
+    width: 60%;
+}
+
+.sign-up .button {
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 5px 30px;
+}
+
+.footer {
+    height: 75px;
+}
