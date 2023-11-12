@@ -9,19 +9,86 @@ body {
 
 .footer,
 .sign-up,
-.quote-section {
+.quote-section,
+.link-container,
+.img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero {
-    height: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero, 
 .footer {
     background-color: #1F2937;
+}
+
+.hero .flex-container {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero .header {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.hero .header .logo {
+    margin-right: auto;
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero .header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero .hero-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero .hero-info div {
+    flex: 1;
+}
+
+.hero .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero .text-container strong {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero .text-container .button {
+    background-color: #3882F6;
+    border-radius: 5px;
+
+    align-self: flex-start;
+    padding: 5px 30px;
+}
+
+.hero .img-container {
+    background-color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .four-panels {
@@ -109,7 +176,7 @@ body {
     background-color: #3882F6;
     border-radius: 10px;
     height: 50%;
-    width: 60%;
+    width: 50%;
 }
 
 .sign-up .button {
